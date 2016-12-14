@@ -13,6 +13,13 @@ import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * @author Gustavo Lizarraga
+     * @version 1.0 14/12/2016
+     *
+     * #DevStudyJam
+     * */
+
     private MediaPlayer mediaPlayer = new MediaPlayer();
 
     private SoundPool spChanguito,
