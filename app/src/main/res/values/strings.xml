@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">StudyJam_II_Multimedia_Remix</string>
+    <string name="app_name">Remix</string>
+
+    <string name="main.btn.changuito">Changuito</string>
+    <string name="main.btn.carnal">Quick Carnal</string>
+    <string name="main.btn.jorge">Con el Jorge</string>
+    <string name="main.btn.jojojojo">Jo jo jo</string>
+    <string name="main.btn.noesasi">No es asi</string>
+    <string name="main.btn.noesasi2">No es asi!</string>
+    <string name="main.btn.rallesasi">No te ralles asi</string>
+    <string name="main.btn.reyendote">Reyendote</string>
+    <string name="main.btn.reyeto">Reyeto</string>
+    <string name="main.btn.terespeto">Te respeto</string>
+    <string name="main.btn.vasdisculpar">Vas Disculpar</string>
+    <string name="main.btn.naquewer">Na que wer</string>
+    <string name="main.btn.idiota">Idiota</string>
+    <string name="main.btn.callate">Callate</string>
+    <string name="main.btn.vetealdiablo">Vete al Diablo</string>
+    <string name="main.btn.fx">FX</string>
+    <string name="main.btn.vocals">Vocals</string>
+    <string name="main.btn.kick">Kick</string>
+    <string name="main.btn.hat">Hat</string>
+    <string name="main.btn.clap">Clap</string>
 </resources>
