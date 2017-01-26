@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             resCallate,
             resVeteAlDiablo;
 
-    private ToggleButton tbPistaElectronica, tbPistaMamboElectronico, tbPistaPopRock, tbPistaReggaeton, tbPistaVillera;
+    private ToggleButton tbPistaElectronica, tbPistaFelizNavidad, tbPistaPopRock, tbPistaReggaeton, tbPistaVillera;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,10 +91,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        tbPistaMamboElectronico.setOnClickListener(new View.OnClickListener() {
+        tbPistaFelizNavidad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (tbPistaMamboElectronico.isChecked()) {
+                if (tbPistaFelizNavidad.isChecked()) {
                     try {
                         createMediaPlayer(2);
                         mediaPlayer.start();
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void initUI(){
         tbPistaElectronica = (ToggleButton)findViewById(R.id.tbPistaElectronica);
-        tbPistaMamboElectronico = (ToggleButton)findViewById(R.id.tbPistaMamboElectronico);
+        tbPistaFelizNavidad = (ToggleButton)findViewById(R.id.tbPistaMamboElectronico);
         tbPistaPopRock = (ToggleButton)findViewById(R.id.tbPistaPopRock);
         tbPistaReggaeton = (ToggleButton)findViewById(R.id.tbPistaReggaeton);
         tbPistaVillera = (ToggleButton)findViewById(R.id.tbPistaVillera);
@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
                     mediaPlayer.release();
                 }
                 mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.pista_kygo_firestone);
-                tbPistaMamboElectronico.setChecked(false);
+                tbPistaFelizNavidad.setChecked(false);
                 tbPistaPopRock.setChecked(false);
                 tbPistaReggaeton.setChecked(false);
                 tbPistaVillera.setChecked(false);
@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
                     mediaPlayer.release();
                 }
                 mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.pista_pop_rock_bateria);
-                tbPistaMamboElectronico.setChecked(false);
+                tbPistaFelizNavidad.setChecked(false);
                 tbPistaElectronica.setChecked(false);
                 tbPistaReggaeton.setChecked(false);
                 tbPistaVillera.setChecked(false);
@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
                     mediaPlayer.release();
                 }
                 mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.pista_reggaeto);
-                tbPistaMamboElectronico.setChecked(false);
+                tbPistaFelizNavidad.setChecked(false);
                 tbPistaPopRock.setChecked(false);
                 tbPistaElectronica.setChecked(false);
                 tbPistaVillera.setChecked(false);
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
                     mediaPlayer.release();
                 }
                 mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.pista_villera);
-                tbPistaMamboElectronico.setChecked(false);
+                tbPistaFelizNavidad.setChecked(false);
                 tbPistaPopRock.setChecked(false);
                 tbPistaReggaeton.setChecked(false);
                 tbPistaElectronica.setChecked(false);
