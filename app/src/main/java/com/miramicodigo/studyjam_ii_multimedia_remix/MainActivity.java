@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
 
         initUI();
         createSoundPool();
-        //createMediaPlayer();
 
         tbPistaElectronica.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -180,7 +179,6 @@ public class MainActivity extends AppCompatActivity {
                     mediaPlayer.release();
                 }
                 mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.pista_kygo_firestone);
-                //mediaPlayer.setVolume(0.9f, 0.9f);
                 tbPistaMamboElectronico.setChecked(false);
                 tbPistaPopRock.setChecked(false);
                 tbPistaReggaeton.setChecked(false);
@@ -191,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
                     mediaPlayer.stop();
                     mediaPlayer.release();
                 }
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.pista_mambo_electronico);
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.pista_feliz_navidad);
                 tbPistaElectronica.setChecked(false);
                 tbPistaPopRock.setChecked(false);
                 tbPistaReggaeton.setChecked(false);
